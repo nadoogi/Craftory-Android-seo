@@ -244,6 +244,8 @@ public class RecommendIllustActivity extends AppCompatActivity implements TagSel
 
         progressCheck(selectedCount);
 
+
+
         String mkdirPath = Environment.getExternalStorageDirectory().getAbsolutePath() + "/craftory";
 
         File mkDir = new File(mkdirPath);
@@ -254,6 +256,13 @@ public class RecommendIllustActivity extends AppCompatActivity implements TagSel
 
         String sdPath = Environment.getExternalStorageDirectory().getAbsolutePath() + "/craftory/temp.json";
         functionBase.fileSave(sdPath, initData);
+
+        //File obname = new File(mkdirPath);
+        //obname.mkdir();
+
+        //JSONArray obdata = new JSONArray();
+       // initData.put("init");
+
 
     }
 
