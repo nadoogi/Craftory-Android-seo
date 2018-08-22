@@ -332,6 +332,9 @@ public class RecommendIllustAdapter extends RecyclerView.Adapter<RecyclerView.Vi
         }
     }
 
+    //브렌치 병합 테스트
+    //브렌치 병합 테스트2
+
 
 
 
